@@ -7,5 +7,5 @@
     <bean id="bar1" class="com.popov.ch3.Autowire.Bar" />
     <bean id="targetByName" class="com.popov.ch3.Autowire.Target" autowire="byName" lazy-init="true" />
     <bean id="targetByType" class="com.popov.ch3.Autowire.Target" autowire="byType" lazy-init="true" />
-    <bean id="constructor" class="com.popov.ch3.Autowire.Target" autowire="targetConstructor" lazy-init="true" />
+    <bean id="targetConstructor" class="com.popov.ch3.Autowire.Target" autowire="constructor" lazy-init="true" />
 </beans>

@@ -41,13 +41,13 @@ public class Target {
 
         Target target = null;
 
-        System.out.println("Using byName:\n");
+        System.out.println("\nUsing byName:");
         target = applicationContext.getBean("targetByName", Target.class);
 
-        System.out.println("Using byType:\n");
+        System.out.println("\nUsing byType:");
         target = applicationContext.getBean("targetByType", Target.class);
 
-        System.out.println("Using constructor:\n");
+        System.out.println("\nUsing constructor:");
         target = applicationContext.getBean("targetConstructor", Target.class);
     }
 }
