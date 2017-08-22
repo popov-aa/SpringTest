@@ -15,7 +15,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.popov.ch3.Autowire.Target</mainClass>
+                    <mainClass>com.popov.ch3.InheritBean.SimpleBean</mainClass>
                     <arguments>
                         <argument>argument1</argument>
                     </arguments>
