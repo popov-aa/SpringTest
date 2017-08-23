@@ -8,4 +8,12 @@
     <bean id="targetByName" class="com.popov.ch3.Autowire.Target" autowire="byName" lazy-init="true" />
     <bean id="targetByType" class="com.popov.ch3.Autowire.Target" autowire="byType" lazy-init="true" />
     <bean id="targetConstructor" class="com.popov.ch3.Autowire.Target" autowire="constructor" lazy-init="true" />
+</beans><?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="inheritParent" class="com.popov.ch3.InheritBean.SimpleBean" p:name="Popov Alexey" p:age="30" />
+<bean id="inheritChild" class="com.popov.ch3.InheritBean.SimpleBean" parent="inheritParent" p:age="31" />
 </beans>
