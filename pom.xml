@@ -15,7 +15,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.popov.ch3.InheritBean.SimpleBean</mainClass>
+                    <mainClass>com.popov.ch4.CustomBeanFactory.MessageDigestExample</mainClass>
                     <arguments>
                         <argument>argument1</argument>
                     </arguments>
